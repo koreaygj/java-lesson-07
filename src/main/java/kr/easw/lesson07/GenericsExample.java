@@ -60,7 +60,7 @@ public class GenericsExample {
     static class RottenEgg implements Ingredient {
         @Override
         public void mix() {
-            throw new RuntimeException("Rotten egg detected!");
+            System.out.println("Rotten egg detected!");
         }
     }
 
